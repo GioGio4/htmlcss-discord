@@ -22,10 +22,14 @@
 .main-container{
     display: flex;
     max-width: 1200px;
-    margin: 100px auto;
     justify-content: center;
+    margin: 0 auto;
+    min-height: 600px;
 }
 
+.img-box>img{
+    width: 100%;
+}
 
 .big-main-container{
     display: flex;
@@ -159,6 +163,7 @@ h1{
 
 .white-section{
     background-color: white; 
+    margin: 100px 0;
     
 }
 
@@ -184,10 +189,12 @@ h1{
     padding: 20px;
     
 }
-/*  SECTION 3 (Grey) */
+/*  SECTION 2 (Grey) */
 
 .grey-section{
     background-color: #d3d3d3;
+    /* background-image: url(../img/wave.svg); */
+    margin: 100px 0;
 }
 
 /*   SECTION 4 (Stessi valori Section 2) White */
