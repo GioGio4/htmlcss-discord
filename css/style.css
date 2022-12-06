@@ -14,7 +14,8 @@
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    height: 90px;
+    padding: 20px 0;
+    
 }
 
 .header-container>*{
@@ -29,10 +30,11 @@
     max-width: 1200px;
     margin: 0 auto;
     justify-content: center;
-    height: 500px;
+    min-height: 500px;
 }
 
 .main-container>*{
+    /*  debug */
     border: 3px dashed black;
    
 }
@@ -81,8 +83,9 @@
 
 
 header{
+    /* debug */
     background-color: #add8e6;
-    height: 90px;
+    
 }
 
 
@@ -103,20 +106,21 @@ header{
     padding: 5px;
 }
 
-/* Main */
-
-            /*SECTION 1 (Blue) */
-
 .blue-section{
+    /* debug */
     background-color: #00008b;
 }
 
-
 .center-box{
+     /*  debug */
     background-color: hotpink;
-    width: 900px;
-    height: 400px;
+
+    width: 80%;
+    min-height: 400px;
 }
+/* Main */
+
+
 
 /*        SECTION 2 (White) */
 
