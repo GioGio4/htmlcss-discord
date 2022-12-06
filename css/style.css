@@ -21,18 +21,11 @@
 
 .main-container{
     display: flex;
-    align-items: center;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 100px auto;
     justify-content: center;
-    min-height: 500px;
 }
 
-.main-container>*{
-    /*  debug */
-    border: 3px dashed black;
-   
-}
 
 .big-main-container{
     display: flex;
@@ -162,24 +155,35 @@ h1{
 
 
 
-/*        SECTION 2 (White) */
+/*        SECTION 1 (White) */
 
 .white-section{
-    background-color: white;
+    background-color: white; 
+    
 }
 
-.blue-box{
-    background-color: #1e90ff;
+.img-box{
     width: 60%;
-    height: 400px;
+    min-height: 300px;
+    padding: 50px;
 }
 
-.pink-box{
-    background-color: #ffc0cb;
+.article-box{
     width: 40%;
-    height: 400px;
+    min-height: 300px;
+    padding: 60px 40px;
 }
 
+.article-box>h2{
+    font-size: 50px;
+    padding: 20px;
+}
+
+.article-box>p{
+    font-size: 22px;
+    padding: 20px;
+    
+}
 /*  SECTION 3 (Grey) */
 
 .grey-section{
