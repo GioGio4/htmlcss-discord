@@ -15,10 +15,9 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 0;
+    justify-content: center;
     
 }
-
-
 
 .main-container{
     display: flex;
@@ -80,8 +79,7 @@
 
 header{
     background-image: url(../img/jumbo.png);
-    background-size: cover;
-    
+    background-size: cover;  
 }
 
 .left-box{
@@ -108,19 +106,57 @@ header{
 
 .button-login{
     background-color: white;
-    font-size: 20px;
+    font-size: 13px;
     border-style: none;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding: 10px 15px;
 }
 
-.center-box{
-     /*  debug */
-    background-color: hotpink;
-
+.jumbo-box{
     width: 80%;
-    min-height: 400px;
+    margin: 100px 0;
 }
 
+.jumbo-box>*{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.jumbo-box>p{
+    font-size: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.button-download{
+    background-color: white;
+    color: black;
+    border-radius: 24px;
+    border-style: none;
+    margin: 0 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.button-open{
+    background-color:black;
+    color:white;
+    border-radius: 24px;
+    border-style: none;
+    margin: 0 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
 
 /* Main */
 
