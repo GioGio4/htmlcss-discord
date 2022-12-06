@@ -43,36 +43,29 @@ body{
     min-height: 800px;
 }
 
-.big-main-container>*{
-    border: 3px dashed black;
-}
 
 .dark-grey-container{
     display: flex;
-    align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     justify-content: center;
-    height: 700px;
+    min-height: 500px;
+    margin-bottom: 50px;
+    
 }
 
-.dark-grey-container>*{
-    border: 3px dashed black;
-}
 
 .footer-container{
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
-    height: 70px;
-    background-color: #7fffd4;
+    min-height: 70px;
     align-items: center;
     justify-content: space-between;
+    padding-top: 20px;
+    border-top: 2px solid white;
 }
 
-.footer-container>*{
-    border: 3px dashed black;
-}
 
 /* Header */
 
@@ -182,12 +175,12 @@ h1{
     padding: 60px 40px;
 }
 
-.article-box,.big-box>h2{
+.article-box>h2{
     font-size: 50px;
     padding: 20px;
 }
 
-.article-box,.big-box>p{
+.article-box>p{
     font-size: 22px;
     padding: 20px;
     
@@ -215,6 +208,17 @@ h1{
     min-height: 800px;
 }
 
+.big-box>h2{
+    font-size: 50px;
+    padding: 20px;
+}
+
+.big-box>p{
+    font-size: 22px;
+    padding: 20px;
+    
+}
+
 .text-img-bg{
 background-image: url(../img/stars.svg);
 }
@@ -235,47 +239,66 @@ background-image: url(../img/stars.svg);
 
 }
 
-/*     SECTION 6 (Dark grey) */
+/*     Footer section*/
 
-.dark-grey-section{
-    background-color: #23272a;
-    border-bottom: 2px solid #d3d3d3 ;
+.column-left{
+    width: 25%;
 }
 
-.column-pink-box{
-    background-color: #f08080;
-    width: 300px;
-    height: 600px;
+.column-left>h3{
+    font-size: 35px;
+    color: #7289da;
+    padding: 10px;
 }
 
-.blue-box-group{
+.language-box{
+    padding: 10px;
+    width: 100%;
+}
+
+.column-right-group{
     display: flex;
-    width: 900px;
+    width: 75%;
+    padding-left: 100px;
 }
 
-.blue-box-group>*{
-    border: 3px dashed white;
-}
 
 .lightblue-box{
-    background-color: #20b2aa;
     width: 25%;
-    height: 600px;
+    padding: 10px;
 }
+
+.lightblue-box>ol{
+    list-style: none;
+}
+
+.lightblue-box>ol>li{
+   margin: 10px 0;
+}
+
+.lightblue-box>ol>li:first-child{
+    color: #7289da;;
+
+}
+
+
 
 /*   FOOTER */
 
 footer {
     background-color: #23272a;
-    padding-top: 20px;
+    padding: 100px 0;
+    color: white;
 }
 
-.footer-logo,
+
 .footer-button {
-    background-color: #ffb6c1;
-    width: 70px;
-    height: 35px;
-    justify-content: center;
-    padding: 7px;
+    background-color:#8ea1e1;
+    color: white;
+    border-radius: 24px;
+    border-style: none;
+    margin: 0 20px;
+    font-size: 20px;
+    padding: 10px 20px;
 }
 
